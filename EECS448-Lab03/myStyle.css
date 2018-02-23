@@ -1,0 +1,48 @@
+table{
+margin: 1.5in;
+}
+
+arrow{
+color: blue;
+cursor: pointer;
+}
+img{
+ border-radius: 12px;
+ position: relative;
+ }
+
+ /*#image{
+ width: 100%;
+ border: solid 1px;
+ border-color: black;
+ }*/
+body{
+  background-color: rgb(111, 132, 168);
+}
+button {
+    background-color: #843a76;
+    border: none;
+    border-radius: 50%;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+
+}
+button:hover {
+    background-color: #a84896;
+    color: white;
+}
+.resize {
+    width: 400px;
+    height: auto;
+}
+
+.resize {
+    width: 300px;
+    height: auto;
+}

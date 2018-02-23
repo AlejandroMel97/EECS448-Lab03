@@ -1,0 +1,40 @@
+p
+{
+    background-color: yellow;
+	color:black;
+	font-family: cooper black;
+    font-size: 16pt;
+}
+body
+{
+    background-color: purple;
+}
+body
+{
+    background-image: url(http://hddesktopwallpapers.in/wp-content/uploads/2015/07/la-lakers-hd-wallpaper-purple.jpg);
+    /* background-size: 100%; */
+    background-repeat: repeat;
+	background-attachment: fixed;
+}
+a
+{
+    background-color: transparent;
+    color: purple;
+}
+
+a:hover
+{
+    background-color: yellow;
+    color: yellow;
+}
+a:visited {
+    color: green;
+}
+
+p.lakers
+{
+    background-color: transparent;
+	color:black;
+	font-family: Arial;
+    font-size: 12pt;
+}

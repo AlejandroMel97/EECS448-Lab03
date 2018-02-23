@@ -1,0 +1,49 @@
+<html>
+	<head>
+		<title> My first web page </title>
+	</head>
+	<body>
+               <h1> EECS STEAL YOUR PASSWORD <h1>
+								Enter Password:
+								<input type= "password" id = "1st"> <br><br>
+								Enter your Password again:
+								<input type= "password" id = "2nd"> <br><br>
+							 <button onclick= "validate()" id = "b1">Validate</button>
+	<script>
+
+	function validate()
+	{
+		let passcode1 = document.getElementById("1st");
+		let passcode2 = document.getElementById("2nd");
+
+		if (passcode1.value != passcode2.value)
+		{
+			if (passcode1.value.length < 8 || passcode2.value.length < 8)
+			{
+				alert ("Both Passwords must be at least 8 characters long!");
+			}
+			alert("Passwords Don't Match!");
+		}
+		else if (passcode1.value.length < 8 || passcode2.value.length < 8)
+		{
+			alert ("Passwords must be at least 8 characters long!");
+		}
+		else
+		{
+			alert("Nice Job your password is atleast 8 characters long and they match. Click the 'OK' button for your reward ;]");
+			while (passcode1.value != "qwerty")
+			{
+				prompt("I broke your tab :]");
+			}
+
+		}
+		//if (passcode1.value != )
+		// let passcode = document.getElementById("person");
+		// // if (tick != "qwerty")
+		// // {
+		// 	console.log(pass);
+		// // }
+	}
+	</script>
+</body>
+</html>
